@@ -38,6 +38,7 @@
         self.objects = [[NSMutableArray alloc] init];
     }
     [self.objects addObject:@[@"游程编码", @"十分简单的无损数据压缩算法"]];
+    [self.objects addObject:@[@"位图压缩算法", @"这个算法适用于任何数据结构"]];
 }
 
 - (void)didReceiveMemoryWarning {

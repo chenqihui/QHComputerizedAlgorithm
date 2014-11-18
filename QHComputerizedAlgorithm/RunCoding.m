@@ -6,30 +6,32 @@
 //  Copyright (c) 2014年 chen. All rights reserved.
 //
 
-#import "GameEncodeViewController.h"
+#import "RunCoding.h"
 
-@interface GameEncodeViewController ()
-{
-    NSString *_code;
-    NSString *_encode;
-}
+@interface RunCoding ()
 
 @end
 
 /*
  计算机算法：数据压缩之游程编码：http://blog.jobbole.com/79758/
  */
-@implementation GameEncodeViewController
+@implementation RunCoding
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    _code = @"aaaaaaaaaabbbaxxxxyyyzyx";
-    
-    [self gameEncodeOne];
-    [self gameEncodeTwo];
-    [self gameEncodeThree];
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        _code = @"aaaaaaaaaabbbaxxxxyyyzyx";
+    }
+    return self;
+}
+
+- (void)runingCode
+{
+    [self encodeOne];
+    [self encodeTwo];
+    [self encodeThree];
 }
 
 /*
@@ -41,7 +43,7 @@
  a10b3a1x4y3z1y1x1
  此时字符串长度为17，大约是初始字符串长度的70%。很明显，这并不是压缩给定字符串的最佳方式。例如当字符仅出现一次时，我们并不需要其后添加“1”。
  */
-- (NSString *)gameEncodeOne
+- (NSString *)encodeOne
 {
     int i = 0, j = 0;
     NSString *prev;
@@ -71,7 +73,7 @@
  a10b3ax4y3zyx
  此时字符串长度为13，是初始长度的54%！
  */
-- (NSString *)gameEncodeTwo
+- (NSString *)encodeTwo
 {
     int i = 0, j = 0;
     NSString *prev;
@@ -99,7 +101,7 @@
  
  a0b10a13x14y18z21y22x23
  */
-- (NSString *)gameEncodeThree
+- (NSString *)encodeThree
 {
     int i = 0;
     NSString *prev;

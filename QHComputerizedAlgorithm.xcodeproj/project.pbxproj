@@ -15,7 +15,9 @@
 		74ED0B571A1AEDE2009D8357 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74ED0B561A1AEDE2009D8357 /* Images.xcassets */; };
 		74ED0B5A1A1AEDE2009D8357 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ED0B581A1AEDE2009D8357 /* LaunchScreen.xib */; };
 		74ED0B661A1AEDE2009D8357 /* QHComputerizedAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B651A1AEDE2009D8357 /* QHComputerizedAlgorithmTests.m */; };
-		74ED0B721A1AF530009D8357 /* GameEncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B711A1AF530009D8357 /* GameEncodeViewController.m */; };
+		74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B711A1AF530009D8357 /* RunCoding.m */; };
+		74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B741A1B2730009D8357 /* BitMapCode.m */; };
+		74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B771A1B2946009D8357 /* BasicCodeObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +46,12 @@
 		74ED0B5F1A1AEDE2009D8357 /* QHComputerizedAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHComputerizedAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED0B641A1AEDE2009D8357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ED0B651A1AEDE2009D8357 /* QHComputerizedAlgorithmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHComputerizedAlgorithmTests.m; sourceTree = "<group>"; };
-		74ED0B701A1AF530009D8357 /* GameEncodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEncodeViewController.h; sourceTree = "<group>"; };
-		74ED0B711A1AF530009D8357 /* GameEncodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEncodeViewController.m; sourceTree = "<group>"; };
+		74ED0B701A1AF530009D8357 /* RunCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCoding.h; sourceTree = "<group>"; };
+		74ED0B711A1AF530009D8357 /* RunCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCoding.m; sourceTree = "<group>"; };
+		74ED0B731A1B2730009D8357 /* BitMapCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitMapCode.h; sourceTree = "<group>"; };
+		74ED0B741A1B2730009D8357 /* BitMapCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitMapCode.m; sourceTree = "<group>"; };
+		74ED0B761A1B2946009D8357 /* BasicCodeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCodeObject.h; sourceTree = "<group>"; };
+		74ED0B771A1B2946009D8357 /* BasicCodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCodeObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +137,12 @@
 		74ED0B6F1A1AF498009D8357 /* GameEncode */ = {
 			isa = PBXGroup;
 			children = (
-				74ED0B701A1AF530009D8357 /* GameEncodeViewController.h */,
-				74ED0B711A1AF530009D8357 /* GameEncodeViewController.m */,
+				74ED0B761A1B2946009D8357 /* BasicCodeObject.h */,
+				74ED0B771A1B2946009D8357 /* BasicCodeObject.m */,
+				74ED0B701A1AF530009D8357 /* RunCoding.h */,
+				74ED0B711A1AF530009D8357 /* RunCoding.m */,
+				74ED0B731A1B2730009D8357 /* BitMapCode.h */,
+				74ED0B741A1B2730009D8357 /* BitMapCode.m */,
 			);
 			name = GameEncode;
 			sourceTree = "<group>";
@@ -238,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
-				74ED0B721A1AF530009D8357 /* GameEncodeViewController.m in Sources */,
+				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
+				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
+				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
 				74ED0B491A1AEDE2009D8357 /* main.m in Sources */,
 				74ED0B521A1AEDE2009D8357 /* DetailViewController.m in Sources */,
 			);
@@ -432,6 +444,7 @@
 				74ED0B6B1A1AEDE2009D8357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74ED0B6C1A1AEDE2009D8357 /* Build configuration list for PBXNativeTarget "QHComputerizedAlgorithmTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +453,7 @@
 				74ED0B6E1A1AEDE2009D8357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

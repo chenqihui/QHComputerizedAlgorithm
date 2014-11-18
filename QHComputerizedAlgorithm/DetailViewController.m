@@ -8,7 +8,8 @@
 
 #import "DetailViewController.h"
 
-#import "GameEncodeViewController.h"
+#import "RunCoding.h"
+#import "BitMapCode.h"
 
 @interface DetailViewController ()
 {
@@ -40,19 +41,22 @@
         
         self.navigationItem.title = [_arData objectAtIndex:0];
         
-        UIViewController *nextVC = nil;
+        BasicCodeObject *coding = nil;
         switch (_indexPath.row)
         {
             case 0:
-                nextVC = [[GameEncodeViewController alloc] init];
+                coding = [RunCoding new];
+                break;
+            case 1:
+                coding = [BitMapCode new];
                 break;
                 
             default:
                 break;
         }
-        if (nextVC != nil)
+        if (coding != nil)
         {
-            [self.view addSubview:nextVC.view];
+            [coding runingCode];
         }
     }
 }
