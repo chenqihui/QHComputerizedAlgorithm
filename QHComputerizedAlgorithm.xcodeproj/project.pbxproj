@@ -21,6 +21,7 @@
 		74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B711A1AF530009D8357 /* RunCoding.m */; };
 		74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B741A1B2730009D8357 /* BitMapCode.m */; };
 		74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B771A1B2946009D8357 /* BasicCodeObject.m */; };
+		74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED28F31A1E50B3002317DC /* PrefixionCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		74ED0B741A1B2730009D8357 /* BitMapCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitMapCode.m; sourceTree = "<group>"; };
 		74ED0B761A1B2946009D8357 /* BasicCodeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCodeObject.h; sourceTree = "<group>"; };
 		74ED0B771A1B2946009D8357 /* BasicCodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCodeObject.m; sourceTree = "<group>"; };
+		74ED28F21A1E50B3002317DC /* PrefixionCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixionCode.h; sourceTree = "<group>"; };
+		74ED28F31A1E50B3002317DC /* PrefixionCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixionCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				743FFCC41A1D95DF00F645A6 /* ios-basic.css */,
 				743FFCC61A1D9D1A00F645A6 /* RelativeCoding.h */,
 				743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */,
+				74ED28F21A1E50B3002317DC /* PrefixionCode.h */,
+				74ED28F31A1E50B3002317DC /* PrefixionCode.m */,
 			);
 			name = DataEncode;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
+				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,

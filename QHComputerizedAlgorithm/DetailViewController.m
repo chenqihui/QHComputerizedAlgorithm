@@ -12,6 +12,7 @@
 #import "BitMapCode.h"
 #import "MapAndModeCode.h"
 #import "RelativeCoding.h"
+#import "PrefixionCode.h"
 
 @interface DetailViewController ()
 {
@@ -59,6 +60,9 @@
                 break;
             case 3:
                 coding = [RelativeCoding new];
+                break;
+            case 4:
+                coding = [PrefixionCode new];
                 break;
                 
             default:
