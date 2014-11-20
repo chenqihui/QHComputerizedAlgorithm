@@ -14,6 +14,8 @@
     NSString *_encode;
 }
 
+- (void)initCodeData;//子类必须实现
+
 - (void)runingCode;
 
 @end

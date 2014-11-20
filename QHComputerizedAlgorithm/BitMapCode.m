@@ -8,23 +8,21 @@
 
 #import "BitMapCode.h"
 
+/*
+ 计算机算法：数据压缩之位图（2）：http://blog.jobbole.com/79760/
+ */
 @implementation BitMapCode
 
-- (instancetype)init
+- (void)initCodeData
 {
-    self = [super init];
-    if (self)
-    {
-        _code = @"aazahalavaatalawacamaahakafaaaqaaaiauaacaaxaauaxaaaaaapaayatagaaoafaawayazavaaaazaaabararaaaaakakaaqaarazacajaazavanazaaaeanaaoajauaaaaaxalaraaapabataaavaaab";
-    }
-    return self;
+    _code = @"aazahalavaatalawacamaahakafaaaqaaaiauaacaaxaauaxaaaaaapaayatagaaoafaawayazavaaaazaaabararaaaaakakaaqaarazacajaazavanazaaaeanaaoajauaaaaaxalaraaapabataaavaaab";
 }
 
 - (void)runingCode
 {
 //    unsigned long long temp = powf(2, 100);
 
-    [self encode];
+    [self encode];//数值太多无法显示
 }
 
 /*

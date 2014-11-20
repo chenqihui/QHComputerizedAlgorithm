@@ -37,8 +37,10 @@
     if (!self.objects) {
         self.objects = [[NSMutableArray alloc] init];
     }
-    [self.objects addObject:@[@"游程编码", @"十分简单的无损数据压缩算法"]];
-    [self.objects addObject:@[@"位图压缩算法", @"这个算法适用于任何数据结构"]];
+    [self.objects addObject:@[@"1、数据压缩之游程编码", @"十分简单的无损数据压缩算法"]];
+    [self.objects addObject:@[@"2、数据压缩之位图压缩算法", @"这个算法适用于任何数据结构"]];
+    [self.objects addObject:@[@"3、数据压缩之图编码和模式替换", @"游程编码有两种变形"]];
+    [self.objects addObject:@[@"4、数据压缩之相对编码", @"另一种数据压缩算法"]];
 }
 
 - (void)didReceiveMemoryWarning {

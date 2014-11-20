@@ -17,14 +17,9 @@
  */
 @implementation RunCoding
 
-- (instancetype)init
+- (void)initCodeData
 {
-    self = [super init];
-    if (self)
-    {
-        _code = @"aaaaaaaaaabbbaxxxxyyyzyx";
-    }
-    return self;
+    _code = @"aaaaaaaaaabbbaxxxxyyyzyx";
 }
 
 - (void)runingCode

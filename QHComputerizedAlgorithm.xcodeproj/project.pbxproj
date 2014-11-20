@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC21A1D902400F645A6 /* MapAndModeCode.m */; };
+		743FFCC51A1D95DF00F645A6 /* ios-basic.css in Resources */ = {isa = PBXBuildFile; fileRef = 743FFCC41A1D95DF00F645A6 /* ios-basic.css */; };
+		743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */; };
 		74ED0B491A1AEDE2009D8357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B481A1AEDE2009D8357 /* main.m */; };
 		74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4B1A1AEDE2009D8357 /* AppDelegate.m */; };
 		74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */; };
@@ -31,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		743FFCC11A1D902400F645A6 /* MapAndModeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAndModeCode.h; sourceTree = "<group>"; };
+		743FFCC21A1D902400F645A6 /* MapAndModeCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAndModeCode.m; sourceTree = "<group>"; };
+		743FFCC41A1D95DF00F645A6 /* ios-basic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ios-basic.css"; sourceTree = "<group>"; };
+		743FFCC61A1D9D1A00F645A6 /* RelativeCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeCoding.h; sourceTree = "<group>"; };
+		743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeCoding.m; sourceTree = "<group>"; };
 		74ED0B431A1AEDE2009D8357 /* QHComputerizedAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHComputerizedAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED0B471A1AEDE2009D8357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ED0B481A1AEDE2009D8357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,7 +107,7 @@
 				74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */,
 				74ED0B501A1AEDE2009D8357 /* DetailViewController.h */,
 				74ED0B511A1AEDE2009D8357 /* DetailViewController.m */,
-				74ED0B6F1A1AF498009D8357 /* GameEncode */,
+				74ED0B6F1A1AF498009D8357 /* DataEncode */,
 				74ED0B531A1AEDE2009D8357 /* Main.storyboard */,
 				74ED0B561A1AEDE2009D8357 /* Images.xcassets */,
 				74ED0B581A1AEDE2009D8357 /* LaunchScreen.xib */,
@@ -134,7 +142,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		74ED0B6F1A1AF498009D8357 /* GameEncode */ = {
+		74ED0B6F1A1AF498009D8357 /* DataEncode */ = {
 			isa = PBXGroup;
 			children = (
 				74ED0B761A1B2946009D8357 /* BasicCodeObject.h */,
@@ -143,8 +151,13 @@
 				74ED0B711A1AF530009D8357 /* RunCoding.m */,
 				74ED0B731A1B2730009D8357 /* BitMapCode.h */,
 				74ED0B741A1B2730009D8357 /* BitMapCode.m */,
+				743FFCC11A1D902400F645A6 /* MapAndModeCode.h */,
+				743FFCC21A1D902400F645A6 /* MapAndModeCode.m */,
+				743FFCC41A1D95DF00F645A6 /* ios-basic.css */,
+				743FFCC61A1D9D1A00F645A6 /* RelativeCoding.h */,
+				743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */,
 			);
-			name = GameEncode;
+			name = DataEncode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +242,7 @@
 			files = (
 				74ED0B551A1AEDE2009D8357 /* Main.storyboard in Resources */,
 				74ED0B5A1A1AEDE2009D8357 /* LaunchScreen.xib in Resources */,
+				743FFCC51A1D95DF00F645A6 /* ios-basic.css in Resources */,
 				74ED0B571A1AEDE2009D8357 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +265,9 @@
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
+				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
+				743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */,
 				74ED0B491A1AEDE2009D8357 /* main.m in Sources */,
 				74ED0B521A1AEDE2009D8357 /* DetailViewController.m in Sources */,
 			);

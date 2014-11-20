@@ -8,8 +8,39 @@
 
 #import "BasicCodeObject.h"
 
+/*
+ 计算机算法：：
+ */
 @implementation BasicCodeObject
 
-- (void)runingCode{}
+/*
+ */
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        [self initCodeData];
+    }
+    return self;
+}
+
+- (void)initCodeData
+{
+}
+
+- (void)runingCode
+{
+}
+
+- (NSString *)encode
+{
+    return nil;
+}
+
+- (NSString *)dencode
+{
+    return nil;
+}
 
 @end

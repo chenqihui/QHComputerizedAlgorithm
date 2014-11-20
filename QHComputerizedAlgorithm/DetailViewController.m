@@ -10,6 +10,8 @@
 
 #import "RunCoding.h"
 #import "BitMapCode.h"
+#import "MapAndModeCode.h"
+#import "RelativeCoding.h"
 
 @interface DetailViewController ()
 {
@@ -23,8 +25,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem {
-    if (_detailItem != newDetailItem) {
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem)
+    {
         _detailItem = newDetailItem;
             
         // Update the view.
@@ -49,6 +53,12 @@
                 break;
             case 1:
                 coding = [BitMapCode new];
+                break;
+            case 2:
+                coding = [MapAndModeCode new];
+                break;
+            case 3:
+                coding = [RelativeCoding new];
                 break;
                 
             default:
