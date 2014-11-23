@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */; };
+		7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F86C1A215AF800DD89FF /* StackAndQueue.m */; };
 		743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC21A1D902400F645A6 /* MapAndModeCode.m */; };
 		743FFCC51A1D95DF00F645A6 /* ios-basic.css in Resources */ = {isa = PBXBuildFile; fileRef = 743FFCC41A1D95DF00F645A6 /* ios-basic.css */; };
 		743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7404F8681A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAlgorithmsAndDataStructuresObject.h; sourceTree = "<group>"; };
+		7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsAndDataStructuresObject.m; sourceTree = "<group>"; };
+		7404F86B1A215AF800DD89FF /* StackAndQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
+		7404F86C1A215AF800DD89FF /* StackAndQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackAndQueue.m; sourceTree = "<group>"; };
 		743FFCC11A1D902400F645A6 /* MapAndModeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAndModeCode.h; sourceTree = "<group>"; };
 		743FFCC21A1D902400F645A6 /* MapAndModeCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAndModeCode.m; sourceTree = "<group>"; };
 		743FFCC41A1D95DF00F645A6 /* ios-basic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ios-basic.css"; sourceTree = "<group>"; };
@@ -83,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				7404F8681A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.h */,
+				7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */,
+				7404F86B1A215AF800DD89FF /* StackAndQueue.h */,
+				7404F86C1A215AF800DD89FF /* StackAndQueue.m */,
+			);
+			name = AlgorithmsAndDataStructures;
+			sourceTree = "<group>";
+		};
 		74ED0B3A1A1AEDE2009D8357 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +127,7 @@
 				74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */,
 				74ED0B501A1AEDE2009D8357 /* DetailViewController.h */,
 				74ED0B511A1AEDE2009D8357 /* DetailViewController.m */,
+				7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */,
 				74ED0B6F1A1AF498009D8357 /* DataEncode */,
 				74ED0B531A1AEDE2009D8357 /* Main.storyboard */,
 				74ED0B561A1AEDE2009D8357 /* Images.xcassets */,
@@ -270,12 +288,14 @@
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
+				7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
 				743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */,
 				74ED0B491A1AEDE2009D8357 /* main.m in Sources */,
 				74ED0B521A1AEDE2009D8357 /* DetailViewController.m in Sources */,
+				7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

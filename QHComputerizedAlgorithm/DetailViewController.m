@@ -14,6 +14,8 @@
 #import "RelativeCoding.h"
 #import "PrefixionCode.h"
 
+#import "StackAndQueue.h"
+
 @interface DetailViewController ()
 {
     NSIndexPath *_indexPath;
@@ -46,31 +48,58 @@
         
         self.navigationItem.title = [_arData objectAtIndex:0];
         
-        BasicCodeObject *coding = nil;
-        switch (_indexPath.row)
+        switch (_indexPath.section)
         {
             case 0:
-                coding = [RunCoding new];
+            {
+                BasicCodeObject *coding = nil;
+                switch (_indexPath.row)
+                {
+                    case 0:
+                        coding = [RunCoding new];
+                        break;
+                    case 1:
+                        coding = [BitMapCode new];
+                        break;
+                    case 2:
+                        coding = [MapAndModeCode new];
+                        break;
+                    case 3:
+                        coding = [RelativeCoding new];
+                        break;
+                    case 4:
+                        coding = [PrefixionCode new];
+                        break;
+                        
+                    default:
+                        break;
+                }
+                if (coding != nil)
+                {
+                    [coding runingCode];
+                }
                 break;
+            }
             case 1:
-                coding = [BitMapCode new];
+            {
+                BasicAlgorithmsAndDataStructuresObject *dataSA = nil;
+                switch (_indexPath.row)
+                {
+                    case 0:
+                        dataSA = [StackAndQueue new];
+                        break;
+                        
+                    default:
+                        break;
+                }
+                if (dataSA != nil)
+                {
+                    [dataSA runing];
+                }
                 break;
-            case 2:
-                coding = [MapAndModeCode new];
-                break;
-            case 3:
-                coding = [RelativeCoding new];
-                break;
-            case 4:
-                coding = [PrefixionCode new];
-                break;
-                
+            }
             default:
                 break;
-        }
-        if (coding != nil)
-        {
-            [coding runingCode];
         }
     }
 }
