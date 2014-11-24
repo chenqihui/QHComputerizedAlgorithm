@@ -52,6 +52,9 @@
     {
         NSMutableArray *arTmp = [NSMutableArray new];
         [arTmp addObject:@[@"1、栈和队列", @"简单介绍栈(Stack)和队列(Queue)的实现"]];
+        [arTmp addObject:@[@"2、基本排序算法", @"排序与我们日常生活中息息相关"]];
+        [arTmp addObject:@[@"3、合并排序", @"将两个有序的序列合并为一个大的有序的序列的方式来实现排序。"]];
+        [arTmp addObject:@[@"4、快速排序", @"它也是一种采用分治法解决问题的一个典型应用"]];
         
         [self.objects addObject:@[@"二、浅谈算法和数据结构", arTmp]];
     }

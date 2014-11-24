@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */; };
 		7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F86C1A215AF800DD89FF /* StackAndQueue.m */; };
+		74348A991A23864200BDDA5D /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A981A23864200BDDA5D /* MergeSort.m */; };
+		74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A9B1A23874B00BDDA5D /* QuickSort.m */; };
 		743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC21A1D902400F645A6 /* MapAndModeCode.m */; };
 		743FFCC51A1D95DF00F645A6 /* ios-basic.css in Resources */ = {isa = PBXBuildFile; fileRef = 743FFCC41A1D95DF00F645A6 /* ios-basic.css */; };
 		743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */; };
+		74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */; };
 		74ED0B491A1AEDE2009D8357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B481A1AEDE2009D8357 /* main.m */; };
 		74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4B1A1AEDE2009D8357 /* AppDelegate.m */; };
 		74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */; };
@@ -41,11 +44,17 @@
 		7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsAndDataStructuresObject.m; sourceTree = "<group>"; };
 		7404F86B1A215AF800DD89FF /* StackAndQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
 		7404F86C1A215AF800DD89FF /* StackAndQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackAndQueue.m; sourceTree = "<group>"; };
+		74348A971A23864200BDDA5D /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		74348A981A23864200BDDA5D /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		74348A9A1A23874B00BDDA5D /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		74348A9B1A23874B00BDDA5D /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		743FFCC11A1D902400F645A6 /* MapAndModeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAndModeCode.h; sourceTree = "<group>"; };
 		743FFCC21A1D902400F645A6 /* MapAndModeCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAndModeCode.m; sourceTree = "<group>"; };
 		743FFCC41A1D95DF00F645A6 /* ios-basic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ios-basic.css"; sourceTree = "<group>"; };
 		743FFCC61A1D9D1A00F645A6 /* RelativeCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeCoding.h; sourceTree = "<group>"; };
 		743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeCoding.m; sourceTree = "<group>"; };
+		74BDDCB01A222C4A00325F0A /* BasicSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSortAlgorithms.h; sourceTree = "<group>"; };
+		74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSortAlgorithms.m; sourceTree = "<group>"; };
 		74ED0B431A1AEDE2009D8357 /* QHComputerizedAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHComputerizedAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED0B471A1AEDE2009D8357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ED0B481A1AEDE2009D8357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +105,12 @@
 				7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */,
 				7404F86B1A215AF800DD89FF /* StackAndQueue.h */,
 				7404F86C1A215AF800DD89FF /* StackAndQueue.m */,
+				74BDDCB01A222C4A00325F0A /* BasicSortAlgorithms.h */,
+				74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */,
+				74348A971A23864200BDDA5D /* MergeSort.h */,
+				74348A981A23864200BDDA5D /* MergeSort.m */,
+				74348A9A1A23874B00BDDA5D /* QuickSort.h */,
+				74348A9B1A23874B00BDDA5D /* QuickSort.m */,
 			);
 			name = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
@@ -284,11 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74348A991A23864200BDDA5D /* MergeSort.m in Sources */,
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
+				74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
 				7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */,
+				74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,

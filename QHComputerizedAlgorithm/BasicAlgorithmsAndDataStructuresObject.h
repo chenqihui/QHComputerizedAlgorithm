@@ -14,4 +14,8 @@
 
 - (void)runing;
 
+void swap(int *array, int i, int j);
+
+void show(int *array, int len);
+
 @end

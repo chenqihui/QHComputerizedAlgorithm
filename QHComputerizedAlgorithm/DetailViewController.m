@@ -15,6 +15,9 @@
 #import "PrefixionCode.h"
 
 #import "StackAndQueue.h"
+#import "BasicSortAlgorithms.h"
+#import "MergeSort.h"
+#import "QuickSort.h"
 
 @interface DetailViewController ()
 {
@@ -87,6 +90,15 @@
                 {
                     case 0:
                         dataSA = [StackAndQueue new];
+                        break;
+                    case 1:
+                        dataSA = [BasicSortAlgorithms new];
+                        break;
+                    case 2:
+                        dataSA = [MergeSort new];
+                        break;
+                    case 3:
+                        dataSA = [QuickSort new];
                         break;
                         
                     default:

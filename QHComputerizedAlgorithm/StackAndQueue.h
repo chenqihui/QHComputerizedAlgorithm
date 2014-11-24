@@ -8,20 +8,20 @@
 
 #import "BasicAlgorithmsAndDataStructuresObject.h"
 
-@interface StackLinkObject : NSObject
+@interface Node : NSObject
 {
     id item;
-    StackLinkObject *next;
+    Node *next;
 }
 
 @property (nonatomic, retain) id item;
-@property (nonatomic, retain) StackLinkObject *next;
+@property (nonatomic, retain) Node *next;
 
 @end
 
 @interface StackLink : NSObject
 {
-    StackLinkObject *first;
+    Node *first;
 }
 
 @property (nonatomic, assign, readonly) int number;
@@ -41,6 +41,35 @@
 
 - (void)push:(id)obj;
 - (id)pop;
+
+@end
+
+@interface QueueLink : NSObject
+{
+    Node *first;
+    Node *last;
+}
+
+@property (nonatomic, assign, readonly) int number;
+
+- (void)enqueue:(id)item;
+- (id)dequeue;
+
+@end
+
+@interface QueueArray : NSObject
+{
+    NSMutableArray *arData;
+    int capacitysize;
+    
+    int head;
+    int tail;
+}
+
+@property (nonatomic, assign, readonly) int number;
+
+- (void)enqueue:(id)item;
+- (id)dequeue;
 
 @end
 
