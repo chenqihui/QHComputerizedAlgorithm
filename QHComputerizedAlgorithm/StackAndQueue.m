@@ -8,6 +8,7 @@
 
 #import "StackAndQueue.h"
 
+//浅谈算法和数据结构（1）：栈和队列---http://blog.jobbole.com/79267/
 /*
  栈 (Stack)是一种后进先出(last in first off，LIFO)的数据结构
  */

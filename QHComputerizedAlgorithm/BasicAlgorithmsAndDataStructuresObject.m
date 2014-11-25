@@ -44,4 +44,14 @@ void show(int *array, int len)
     }
 }
 
+void deleteLast(int *array, int len)
+{
+    int aux[len-1];
+    for (int i = 0; i < len-1; i++)
+    {
+        aux[i] = array[i];
+    }
+    array = aux;
+}
+
 @end

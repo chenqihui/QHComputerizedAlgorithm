@@ -18,4 +18,6 @@ void swap(int *array, int i, int j);
 
 void show(int *array, int len);
 
+void deleteLast(int *array, int len);
+
 @end

@@ -8,6 +8,7 @@
 
 #import "MergeSort.h"
 
+//浅谈算法和数据结构（3）：合并排序---http://blog.jobbole.com/79293/
 @implementation MergeSort
 
 - (void)initData

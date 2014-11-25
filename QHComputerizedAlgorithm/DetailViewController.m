@@ -18,6 +18,7 @@
 #import "BasicSortAlgorithms.h"
 #import "MergeSort.h"
 #import "QuickSort.h"
+#import "PriorityQueueAndHeapSort.h"
 
 @interface DetailViewController ()
 {
@@ -99,6 +100,9 @@
                         break;
                     case 3:
                         dataSA = [QuickSort new];
+                        break;
+                    case 4:
+                        dataSA = [PriorityQueueAndHeapSort new];
                         break;
                         
                     default:
