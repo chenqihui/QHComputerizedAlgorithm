@@ -55,7 +55,9 @@
         [arTmp addObject:@[@"2、基本排序算法", @"排序与我们日常生活中息息相关"]];
         [arTmp addObject:@[@"3、合并排序", @"将两个有序的序列合并为一个大的有序的序列的方式来实现排序。"]];
         [arTmp addObject:@[@"4、快速排序", @"它也是一种采用分治法解决问题的一个典型应用"]];
-        [arTmp addObject:@[@"4、优先级队列与堆排序", @"二叉堆是一个近似完全二叉树的结构"]];
+        [arTmp addObject:@[@"5、优先级队列与堆排序", @"二叉堆是一个近似完全二叉树的结构"]];
+        [arTmp addObject:@[@"6、符号表及其基本实现", @"名为符号表（Symbol Table）的抽象数据结构"]];
+        [arTmp addObject:@[@"7、二叉查找树", @"也称有序二叉树（ordered binary tree）,排序二叉树（sorted binary tree）"]];
         
         [self.objects addObject:@[@"二、浅谈算法和数据结构", arTmp]];
     }

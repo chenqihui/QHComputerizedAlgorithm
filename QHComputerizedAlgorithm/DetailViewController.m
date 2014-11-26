@@ -19,6 +19,8 @@
 #import "MergeSort.h"
 #import "QuickSort.h"
 #import "PriorityQueueAndHeapSort.h"
+#import "SymbolTableDictionary.h"
+#import "BinarySearchTree.h"
 
 @interface DetailViewController ()
 {
@@ -103,6 +105,12 @@
                         break;
                     case 4:
                         dataSA = [PriorityQueueAndHeapSort new];
+                        break;
+                    case 5:
+                        dataSA = [SymbolTableDictionary new];
+                        break;
+                    case 6:
+                        dataSA = [BinarySearchTree new];
                         break;
                         
                     default:
