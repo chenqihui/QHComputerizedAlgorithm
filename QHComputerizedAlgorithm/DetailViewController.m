@@ -21,6 +21,9 @@
 #import "PriorityQueueAndHeapSort.h"
 #import "SymbolTableDictionary.h"
 #import "BinarySearchTree.h"
+#import "TwoThreeSearchTree.h"
+#import "RedBlackTree.h"
+#import "BAndBplusTree.h"
 
 @interface DetailViewController ()
 {
@@ -111,6 +114,15 @@
                         break;
                     case 6:
                         dataSA = [BinarySearchTree new];
+                        break;
+                    case 7:
+                        dataSA = [TwoThreeSearchTree new];
+                        break;
+                    case 8:
+                        dataSA = [RedBlackTree new];
+                        break;
+                    case 10:
+                        dataSA = [BAndBplusTree new];
                         break;
                         
                     default:

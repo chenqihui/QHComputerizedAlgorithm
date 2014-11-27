@@ -21,6 +21,11 @@
  4. 没有键值相等的节点（no duplicate nodes）。
  */
 @implementation BinarySearchTreeObject
+/*
+ 待完善：
+ 1、数字记录不对
+ 2、实现currentNode为最中间的那个（此为后面平衡二叉树实现）
+ */
 
 - (instancetype)initWithKey:(NSString *)key value:(NSString *)value number:(int)number
 {
@@ -66,7 +71,12 @@
 //         NSLog(@"%@-->%d", obj.rightObj.key, obj.number);
 //     }];
     
-    NSString *result = [self binarySearch:@"apple"];
+    BinarySearchTreeObject *obj = [_arData objectAtIndex:0];
+    NSLog(@"%@-->%d", obj.key, obj.number);
+    NSLog(@"%@-->%d", obj.leftObj.key, obj.leftObj.number);
+    NSLog(@"%@-->%d", obj.rightObj.key, obj.rightObj.number);
+    
+    NSString *result = [self binarySearch:@"json"];
     NSLog(@"%@", result);
 }
 
@@ -89,7 +99,8 @@
             midObj = superObj.leftObj;
         else
             midObj = superObj.rightObj;
-    }
+    }else
+        midObj = superObj;
     
     if (midObj == nil)
     {
@@ -133,17 +144,18 @@
 - (NSString *)search:(NSString *)key compareObj:(BinarySearchTreeObject *)compareObj
 {
     NSString *resultKey = nil;
-    if ([compareObj.key compare:key options:NSLiteralSearch] == NSOrderedAscending)
+    if (compareObj != nil)
     {
-        if (compareObj.rightObj != nil)
+        if ([compareObj.key compare:key options:NSLiteralSearch] == NSOrderedAscending)
+        {
             resultKey = [self search:key compareObj:compareObj.rightObj];
-    }else if ([compareObj.key compare:key options:NSLiteralSearch] == NSOrderedDescending)
-    {
-        if (compareObj.leftObj != nil)
+        }else if ([compareObj.key compare:key options:NSLiteralSearch] == NSOrderedDescending)
+        {
             resultKey = [self search:key compareObj:compareObj.leftObj];
-    }else
-    {
-        resultKey = compareObj.value;
+        }else
+        {
+            resultKey = compareObj.value;
+        }
     }
     return resultKey;
 }

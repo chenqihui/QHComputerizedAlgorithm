@@ -58,6 +58,9 @@
         [arTmp addObject:@[@"5、优先级队列与堆排序", @"二叉堆是一个近似完全二叉树的结构"]];
         [arTmp addObject:@[@"6、符号表及其基本实现", @"名为符号表（Symbol Table）的抽象数据结构"]];
         [arTmp addObject:@[@"7、二叉查找树", @"也称有序二叉树（ordered binary tree）,排序二叉树（sorted binary tree）"]];
+        [arTmp addObject:@[@"8、平衡查找树之2-3树", @"实现起来比较复杂，在某些情况插入后的平衡操作可能会使得效率降低。"]];
+        [arTmp addObject:@[@"9、平衡查找树之红黑树", @"像是对2-3查找树进行编码，尤其是对2-3查找树中的3-nodes节点添加额外的信息。"]];
+        [arTmp addObject:@[@"10、平衡查找树之B树", @"是一个节点可以拥有多于2个子节点的二叉查找树"]];
         
         [self.objects addObject:@[@"二、浅谈算法和数据结构", arTmp]];
     }
