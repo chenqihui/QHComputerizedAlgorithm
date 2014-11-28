@@ -24,6 +24,7 @@
 #import "TwoThreeSearchTree.h"
 #import "RedBlackTree.h"
 #import "BAndBplusTree.h"
+#import "HashTableSort.h"
 
 @interface DetailViewController ()
 {
@@ -121,8 +122,11 @@
                     case 8:
                         dataSA = [RedBlackTree new];
                         break;
-                    case 10:
+                    case 9:
                         dataSA = [BAndBplusTree new];
+                        break;
+                    case 10:
+                        dataSA = [HashTableSort new];
                         break;
                         
                     default:

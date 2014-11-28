@@ -17,6 +17,16 @@
 @synthesize item;
 @synthesize next;
 
+- (instancetype)initWithItm:(id)obj
+{
+    self = [super init];
+    if (self)
+    {
+        self.item = obj;
+    }
+    return self;
+}
+
 @end
 
 @interface StackLink ()

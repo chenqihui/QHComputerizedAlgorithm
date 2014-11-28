@@ -17,6 +17,8 @@
 @property (nonatomic, retain) id item;
 @property (nonatomic, retain) Node *next;
 
+- (instancetype)initWithItm:(id)obj;
+
 @end
 
 @interface StackLink : NSObject

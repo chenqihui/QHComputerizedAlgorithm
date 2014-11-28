@@ -33,6 +33,7 @@
 		74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B741A1B2730009D8357 /* BitMapCode.m */; };
 		74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B771A1B2946009D8357 /* BasicCodeObject.m */; };
 		74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED28F31A1E50B3002317DC /* PrefixionCode.m */; };
+		74F3E1211A2815AC00410317 /* HashTableSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3E1201A2815AC00410317 /* HashTableSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		74ED0B771A1B2946009D8357 /* BasicCodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCodeObject.m; sourceTree = "<group>"; };
 		74ED28F21A1E50B3002317DC /* PrefixionCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixionCode.h; sourceTree = "<group>"; };
 		74ED28F31A1E50B3002317DC /* PrefixionCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixionCode.m; sourceTree = "<group>"; };
+		74F3E11F1A2815AC00410317 /* HashTableSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTableSort.h; sourceTree = "<group>"; };
+		74F3E1201A2815AC00410317 /* HashTableSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTableSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				744F05461A26CEB400783973 /* RedBlackTree.m */,
 				744F05481A26FD8A00783973 /* BAndBplusTree.h */,
 				744F05491A26FD8A00783973 /* BAndBplusTree.m */,
+				74F3E11F1A2815AC00410317 /* HashTableSort.h */,
+				74F3E1201A2815AC00410317 /* HashTableSort.m */,
 			);
 			name = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
 				743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */,
+				74F3E1211A2815AC00410317 /* HashTableSort.m in Sources */,
 				74ED0B491A1AEDE2009D8357 /* main.m in Sources */,
 				74ED0B521A1AEDE2009D8357 /* DetailViewController.m in Sources */,
 				7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */,
