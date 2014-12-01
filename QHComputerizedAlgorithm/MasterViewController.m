@@ -65,6 +65,15 @@
         
         [self.objects addObject:@[@"二、浅谈算法和数据结构", arTmp]];
     }
+    {
+        NSMutableArray *arTmp = [NSMutableArray new];
+        [arTmp addObject:@[@"1、基数估计", @""]];
+        [arTmp addObject:@[@"2、BK树", @""]];
+        [arTmp addObject:@[@"3、喷泉码", @""]];
+        [arTmp addObject:@[@"4、同型哈希", @""]];
+        
+        [self.objects addObject:@[@"三、超酷算法", arTmp]];
+    }
 }
 
 - (void)insertNewObject:(id)sender {

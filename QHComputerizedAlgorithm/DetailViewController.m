@@ -26,6 +26,9 @@
 #import "BAndBplusTree.h"
 #import "HashTableSort.h"
 
+#import "NumberEstimative.h"
+#import "BurkhardKellerTree.h"
+
 @interface DetailViewController ()
 {
     NSIndexPath *_indexPath;
@@ -135,6 +138,31 @@
                 if (dataSA != nil)
                 {
                     [dataSA runing];
+                }
+                break;
+            }
+            case 2:
+            {
+                BasicSuperCoolAlgorithms *coding = nil;
+                switch (_indexPath.row)
+                {
+                    case 0:
+                        coding = [NumberEstimative new];
+                        break;
+                    case 1:
+                        coding = [BurkhardKellerTree new];
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                        
+                    default:
+                        break;
+                }
+                if (coding != nil)
+                {
+                    [coding runingCode];
                 }
                 break;
             }

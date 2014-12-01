@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */; };
 		7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F86C1A215AF800DD89FF /* StackAndQueue.m */; };
+		742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869EC1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m */; };
+		742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869EF1A2C039700FAF733 /* NumberEstimative.m */; };
+		742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */; };
 		74348A991A23864200BDDA5D /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A981A23864200BDDA5D /* MergeSort.m */; };
 		74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A9B1A23874B00BDDA5D /* QuickSort.m */; };
 		743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC21A1D902400F645A6 /* MapAndModeCode.m */; };
@@ -51,6 +54,12 @@
 		7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsAndDataStructuresObject.m; sourceTree = "<group>"; };
 		7404F86B1A215AF800DD89FF /* StackAndQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
 		7404F86C1A215AF800DD89FF /* StackAndQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackAndQueue.m; sourceTree = "<group>"; };
+		742869EB1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSuperCoolAlgorithms.h; sourceTree = "<group>"; };
+		742869EC1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSuperCoolAlgorithms.m; sourceTree = "<group>"; };
+		742869EE1A2C039700FAF733 /* NumberEstimative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberEstimative.h; sourceTree = "<group>"; };
+		742869EF1A2C039700FAF733 /* NumberEstimative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberEstimative.m; sourceTree = "<group>"; };
+		742869F21A2C15CE00FAF733 /* BurkhardKellerTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurkhardKellerTree.h; sourceTree = "<group>"; };
+		742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurkhardKellerTree.m; sourceTree = "<group>"; };
 		74348A971A23864200BDDA5D /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		74348A981A23864200BDDA5D /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		74348A9A1A23874B00BDDA5D /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -150,6 +159,19 @@
 			name = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
 		};
+		742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				742869EB1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.h */,
+				742869EC1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m */,
+				742869EE1A2C039700FAF733 /* NumberEstimative.h */,
+				742869EF1A2C039700FAF733 /* NumberEstimative.m */,
+				742869F21A2C15CE00FAF733 /* BurkhardKellerTree.h */,
+				742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */,
+			);
+			name = SuperCoolAlgorithms;
+			sourceTree = "<group>";
+		};
 		74ED0B3A1A1AEDE2009D8357 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +199,7 @@
 				74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */,
 				74ED0B501A1AEDE2009D8357 /* DetailViewController.h */,
 				74ED0B511A1AEDE2009D8357 /* DetailViewController.m */,
+				742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */,
 				7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */,
 				74ED0B6F1A1AF498009D8357 /* DataEncode */,
 				74ED0B531A1AEDE2009D8357 /* Main.storyboard */,
@@ -343,7 +366,10 @@
 				744626011A257C77002EE2BC /* BinarySearchTree.m in Sources */,
 				74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */,
 				744F054A1A26FD8A00783973 /* BAndBplusTree.m in Sources */,
+				742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */,
+				742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */,
 				74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */,
+				742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
 				7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */,
 				74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */,
