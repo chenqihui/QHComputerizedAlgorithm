@@ -24,6 +24,8 @@
 		744F054A1A26FD8A00783973 /* BAndBplusTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F05491A26FD8A00783973 /* BAndBplusTree.m */; };
 		74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */; };
 		74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */; };
+		74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */; };
+		74E063B31A2EAACF00101405 /* BitOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063B21A2EAACF00101405 /* BitOperation.m */; };
 		74ED0B491A1AEDE2009D8357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B481A1AEDE2009D8357 /* main.m */; };
 		74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4B1A1AEDE2009D8357 /* AppDelegate.m */; };
 		74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */; };
@@ -83,6 +85,10 @@
 		74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueAndHeapSort.m; sourceTree = "<group>"; };
 		74BDDCB01A222C4A00325F0A /* BasicSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSortAlgorithms.h; sourceTree = "<group>"; };
 		74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSortAlgorithms.m; sourceTree = "<group>"; };
+		74E063AE1A2EA9D000101405 /* BasicAlgorithmsItemBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAlgorithmsItemBank.h; sourceTree = "<group>"; };
+		74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsItemBank.m; sourceTree = "<group>"; };
+		74E063B11A2EAACF00101405 /* BitOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitOperation.h; sourceTree = "<group>"; };
+		74E063B21A2EAACF00101405 /* BitOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitOperation.m; sourceTree = "<group>"; };
 		74ED0B431A1AEDE2009D8357 /* QHComputerizedAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHComputerizedAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED0B471A1AEDE2009D8357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ED0B481A1AEDE2009D8357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -172,6 +178,17 @@
 			name = SuperCoolAlgorithms;
 			sourceTree = "<group>";
 		};
+		74E063AD1A2EA94C00101405 /* AlgorithmsItemBack */ = {
+			isa = PBXGroup;
+			children = (
+				74E063AE1A2EA9D000101405 /* BasicAlgorithmsItemBank.h */,
+				74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */,
+				74E063B11A2EAACF00101405 /* BitOperation.h */,
+				74E063B21A2EAACF00101405 /* BitOperation.m */,
+			);
+			name = AlgorithmsItemBack;
+			sourceTree = "<group>";
+		};
 		74ED0B3A1A1AEDE2009D8357 = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +216,7 @@
 				74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */,
 				74ED0B501A1AEDE2009D8357 /* DetailViewController.h */,
 				74ED0B511A1AEDE2009D8357 /* DetailViewController.m */,
+				74E063AD1A2EA94C00101405 /* AlgorithmsItemBack */,
 				742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */,
 				7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */,
 				74ED0B6F1A1AF498009D8357 /* DataEncode */,
@@ -361,6 +379,7 @@
 				744F05471A26CEB400783973 /* RedBlackTree.m in Sources */,
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
+				74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */,
 				744F05441A26BDA100783973 /* TwoThreeSearchTree.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				744626011A257C77002EE2BC /* BinarySearchTree.m in Sources */,
@@ -376,6 +395,7 @@
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
+				74E063B31A2EAACF00101405 /* BitOperation.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
 				743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */,
 				74F3E1211A2815AC00410317 /* HashTableSort.m in Sources */,

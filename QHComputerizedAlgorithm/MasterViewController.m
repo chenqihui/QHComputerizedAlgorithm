@@ -74,6 +74,12 @@
         
         [self.objects addObject:@[@"三、超酷算法", arTmp]];
     }
+    {
+        NSMutableArray *arTmp = [NSMutableArray new];
+        [arTmp addObject:@[@"1、一道位运算的算法题", @""]];
+        
+        [self.objects addObject:@[@"四、算法题库", arTmp]];
+    }
 }
 
 - (void)insertNewObject:(id)sender {

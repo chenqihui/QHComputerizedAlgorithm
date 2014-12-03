@@ -29,6 +29,8 @@
 #import "NumberEstimative.h"
 #import "BurkhardKellerTree.h"
 
+#import "BitOperation.h"
+
 @interface DetailViewController ()
 {
     NSIndexPath *_indexPath;
@@ -163,6 +165,30 @@
                 if (coding != nil)
                 {
                     [coding runingCode];
+                }
+                break;
+            }
+            case 3:
+            {
+                BasicAlgorithmsItemBank *coding = nil;
+                switch (_indexPath.row)
+                {
+                    case 0:
+                        coding = [BitOperation new];
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                        
+                    default:
+                        break;
+                }
+                if (coding != nil)
+                {
+                    [coding runing];
                 }
                 break;
             }
