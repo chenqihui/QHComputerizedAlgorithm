@@ -77,6 +77,7 @@
     {
         NSMutableArray *arTmp = [NSMutableArray new];
         [arTmp addObject:@[@"1、一道位运算的算法题", @""]];
+        [arTmp addObject:@[@"2、MapReduce原理与设计思想", @""]];
         
         [self.objects addObject:@[@"四、算法题库", arTmp]];
     }

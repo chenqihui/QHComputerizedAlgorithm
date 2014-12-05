@@ -30,6 +30,7 @@
 #import "BurkhardKellerTree.h"
 
 #import "BitOperation.h"
+#import "MapReduce.h"
 
 @interface DetailViewController ()
 {
@@ -177,6 +178,7 @@
                         coding = [BitOperation new];
                         break;
                     case 1:
+                        coding = [MapReduce new];
                         break;
                     case 2:
                         break;
