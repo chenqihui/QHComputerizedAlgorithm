@@ -25,9 +25,11 @@
 #import "RedBlackTree.h"
 #import "BAndBplusTree.h"
 #import "HashTableSort.h"
+#import "UndirectedGraphAlgorithms.h"
 
 #import "NumberEstimative.h"
 #import "BurkhardKellerTree.h"
+#import "FountainCode.h"
 
 #import "BitOperation.h"
 #import "MapReduce.h"
@@ -134,6 +136,9 @@
                     case 10:
                         dataSA = [HashTableSort new];
                         break;
+                    case 11:
+                        dataSA = [UndirectedGraphAlgorithms new];
+                        break;
                         
                     default:
                         break;
@@ -156,6 +161,7 @@
                         coding = [BurkhardKellerTree new];
                         break;
                     case 2:
+                        coding = [FountainCode new];
                         break;
                     case 3:
                         break;

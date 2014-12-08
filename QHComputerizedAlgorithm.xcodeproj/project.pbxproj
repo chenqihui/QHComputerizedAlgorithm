@@ -27,6 +27,8 @@
 		74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */; };
 		74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */; };
 		74E063B31A2EAACF00101405 /* BitOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063B21A2EAACF00101405 /* BitOperation.m */; };
+		74E388441A353CDC0040CB6E /* FountainCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E388431A353CDC0040CB6E /* FountainCode.m */; };
+		74E388471A353CE90040CB6E /* UndirectedGraphAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E388461A353CE90040CB6E /* UndirectedGraphAlgorithms.m */; };
 		74ED0B491A1AEDE2009D8357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B481A1AEDE2009D8357 /* main.m */; };
 		74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4B1A1AEDE2009D8357 /* AppDelegate.m */; };
 		74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */; };
@@ -92,6 +94,10 @@
 		74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsItemBank.m; sourceTree = "<group>"; };
 		74E063B11A2EAACF00101405 /* BitOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitOperation.h; sourceTree = "<group>"; };
 		74E063B21A2EAACF00101405 /* BitOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitOperation.m; sourceTree = "<group>"; };
+		74E388421A353CDC0040CB6E /* FountainCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FountainCode.h; sourceTree = "<group>"; };
+		74E388431A353CDC0040CB6E /* FountainCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FountainCode.m; sourceTree = "<group>"; };
+		74E388451A353CE90040CB6E /* UndirectedGraphAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndirectedGraphAlgorithms.h; sourceTree = "<group>"; };
+		74E388461A353CE90040CB6E /* UndirectedGraphAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndirectedGraphAlgorithms.m; sourceTree = "<group>"; };
 		74ED0B431A1AEDE2009D8357 /* QHComputerizedAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHComputerizedAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ED0B471A1AEDE2009D8357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74ED0B481A1AEDE2009D8357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -164,6 +170,8 @@
 				744F05491A26FD8A00783973 /* BAndBplusTree.m */,
 				74F3E11F1A2815AC00410317 /* HashTableSort.h */,
 				74F3E1201A2815AC00410317 /* HashTableSort.m */,
+				74E388451A353CE90040CB6E /* UndirectedGraphAlgorithms.h */,
+				74E388461A353CE90040CB6E /* UndirectedGraphAlgorithms.m */,
 			);
 			name = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
@@ -177,6 +185,8 @@
 				742869EF1A2C039700FAF733 /* NumberEstimative.m */,
 				742869F21A2C15CE00FAF733 /* BurkhardKellerTree.h */,
 				742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */,
+				74E388421A353CDC0040CB6E /* FountainCode.h */,
+				74E388431A353CDC0040CB6E /* FountainCode.m */,
 			);
 			name = SuperCoolAlgorithms;
 			sourceTree = "<group>";
@@ -383,6 +393,7 @@
 				74348A991A23864200BDDA5D /* MergeSort.m in Sources */,
 				744F05471A26CEB400783973 /* RedBlackTree.m in Sources */,
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
+				74E388441A353CDC0040CB6E /* FountainCode.m in Sources */,
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				745B511D1A3149A700B5AFDA /* MapReduce.m in Sources */,
 				74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */,
@@ -396,6 +407,7 @@
 				74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */,
 				742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
+				74E388471A353CE90040CB6E /* UndirectedGraphAlgorithms.m in Sources */,
 				7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */,
 				74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,

@@ -62,6 +62,7 @@
         [arTmp addObject:@[@"9、平衡查找树之红黑树", @"像是对2-3查找树进行编码，尤其是对2-3查找树中的3-nodes节点添加额外的信息。"]];
         [arTmp addObject:@[@"10、平衡查找树之B树", @"是一个节点可以拥有多于2个子节点的二叉查找树"]];
         [arTmp addObject:@[@"11、哈希表", @"以 键-值(key-indexed) 存储数据的结构"]];
+        [arTmp addObject:@[@"12、无向图相关算法基础", @"由两个顶点连接，并且没有方向的图称为无向图"]];
         
         [self.objects addObject:@[@"二、浅谈算法和数据结构", arTmp]];
     }
@@ -69,7 +70,7 @@
         NSMutableArray *arTmp = [NSMutableArray new];
         [arTmp addObject:@[@"1、基数估计", @""]];
         [arTmp addObject:@[@"2、BK树", @""]];
-        [arTmp addObject:@[@"3、喷泉码", @""]];
+        [arTmp addObject:@[@"3、喷泉码", @"或者称为“无率码”"]];
         [arTmp addObject:@[@"4、同型哈希", @""]];
         
         [self.objects addObject:@[@"三、超酷算法", arTmp]];
