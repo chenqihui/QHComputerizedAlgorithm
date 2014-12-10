@@ -77,4 +77,7 @@
 
 @interface StackAndQueue : BasicAlgorithmsAndDataStructuresObject
 
+- (NSArray *)reverse:(NSArray *)array;
+- (NSArray *)reverse:(NSArray *)array index:(int)idx;
+
 @end

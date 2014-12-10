@@ -349,4 +349,25 @@
     return (NSArray *)arTemp;
 }
 
+- (NSArray *)reverse:(NSArray *)array index:(int)idx
+{
+    NSMutableArray *arTemp = [NSMutableArray new];
+    [arTemp addObjectsFromArray:array];
+    
+    int begin = idx;
+    int end = array.count - 1;
+    
+    while (end > begin)
+    {
+        id temp = [arTemp objectAtIndex:begin];
+        [arTemp replaceObjectAtIndex:begin withObject:[arTemp objectAtIndex:end]];
+        [arTemp replaceObjectAtIndex:end withObject:temp];
+        
+        begin++;
+        end--;
+    }
+    
+    return (NSArray *)arTemp;
+}
+
 @end

@@ -72,6 +72,7 @@
         [arTmp addObject:@[@"2、BK树", @""]];
         [arTmp addObject:@[@"3、喷泉码", @"或者称为“无率码”"]];
         [arTmp addObject:@[@"4、同型哈希", @""]];
+        [arTmp addObject:@[@"5、Levenshtein自动机", @""]];
         
         [self.objects addObject:@[@"三、超酷算法", arTmp]];
     }
@@ -81,6 +82,13 @@
         [arTmp addObject:@[@"2、MapReduce原理与设计思想", @""]];
         
         [self.objects addObject:@[@"四、算法题库", arTmp]];
+    }
+    {
+        NSMutableArray *arTmp = [NSMutableArray new];
+        [arTmp addObject:@[@"1、煎饼排序", @"对一堆无序的煎饼以大小排序，铲子可以在任意位置伸进去并且把上面的煎饼都翻转过来。"]];
+        [arTmp addObject:@[@"2、计数排序", @""]];
+        
+        [self.objects addObject:@[@"五、算法系列", arTmp]];
     }
 }
 

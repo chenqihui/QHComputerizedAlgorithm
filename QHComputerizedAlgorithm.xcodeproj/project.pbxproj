@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */; };
 		7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404F86C1A215AF800DD89FF /* StackAndQueue.m */; };
+		741B95551A37F8B9000AE44D /* BasicAlgorithmsSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 741B95541A37F8B9000AE44D /* BasicAlgorithmsSeries.m */; };
+		741B95581A37F8EA000AE44D /* PancakeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 741B95571A37F8EA000AE44D /* PancakeSort.m */; };
+		741B955B1A381963000AE44D /* CountSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 741B955A1A381963000AE44D /* CountSort.m */; };
 		742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869EC1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m */; };
 		742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869EF1A2C039700FAF733 /* NumberEstimative.m */; };
 		742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */; };
@@ -59,6 +62,12 @@
 		7404F8691A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsAndDataStructuresObject.m; sourceTree = "<group>"; };
 		7404F86B1A215AF800DD89FF /* StackAndQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
 		7404F86C1A215AF800DD89FF /* StackAndQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackAndQueue.m; sourceTree = "<group>"; };
+		741B95531A37F8B9000AE44D /* BasicAlgorithmsSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAlgorithmsSeries.h; sourceTree = "<group>"; };
+		741B95541A37F8B9000AE44D /* BasicAlgorithmsSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAlgorithmsSeries.m; sourceTree = "<group>"; };
+		741B95561A37F8EA000AE44D /* PancakeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PancakeSort.h; sourceTree = "<group>"; };
+		741B95571A37F8EA000AE44D /* PancakeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PancakeSort.m; sourceTree = "<group>"; };
+		741B95591A381963000AE44D /* CountSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountSort.h; sourceTree = "<group>"; };
+		741B955A1A381963000AE44D /* CountSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountSort.m; sourceTree = "<group>"; };
 		742869EB1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSuperCoolAlgorithms.h; sourceTree = "<group>"; };
 		742869EC1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSuperCoolAlgorithms.m; sourceTree = "<group>"; };
 		742869EE1A2C039700FAF733 /* NumberEstimative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberEstimative.h; sourceTree = "<group>"; };
@@ -176,6 +185,19 @@
 			name = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
 		};
+		741B95521A37F85D000AE44D /* AlgorithmsSeries */ = {
+			isa = PBXGroup;
+			children = (
+				741B95531A37F8B9000AE44D /* BasicAlgorithmsSeries.h */,
+				741B95541A37F8B9000AE44D /* BasicAlgorithmsSeries.m */,
+				741B95561A37F8EA000AE44D /* PancakeSort.h */,
+				741B95571A37F8EA000AE44D /* PancakeSort.m */,
+				741B95591A381963000AE44D /* CountSort.h */,
+				741B955A1A381963000AE44D /* CountSort.m */,
+			);
+			name = AlgorithmsSeries;
+			sourceTree = "<group>";
+		};
 		742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +253,7 @@
 				74ED0B4E1A1AEDE2009D8357 /* MasterViewController.m */,
 				74ED0B501A1AEDE2009D8357 /* DetailViewController.h */,
 				74ED0B511A1AEDE2009D8357 /* DetailViewController.m */,
+				741B95521A37F85D000AE44D /* AlgorithmsSeries */,
 				74E063AD1A2EA94C00101405 /* AlgorithmsItemBack */,
 				742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */,
 				7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */,
@@ -393,6 +416,7 @@
 				74348A991A23864200BDDA5D /* MergeSort.m in Sources */,
 				744F05471A26CEB400783973 /* RedBlackTree.m in Sources */,
 				74ED0B4C1A1AEDE2009D8357 /* AppDelegate.m in Sources */,
+				741B95581A37F8EA000AE44D /* PancakeSort.m in Sources */,
 				74E388441A353CDC0040CB6E /* FountainCode.m in Sources */,
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				745B511D1A3149A700B5AFDA /* MapReduce.m in Sources */,
@@ -401,6 +425,7 @@
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				744626011A257C77002EE2BC /* BinarySearchTree.m in Sources */,
 				74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */,
+				741B95551A37F8B9000AE44D /* BasicAlgorithmsSeries.m in Sources */,
 				744F054A1A26FD8A00783973 /* BAndBplusTree.m in Sources */,
 				742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */,
 				742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */,
@@ -414,6 +439,7 @@
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
 				74E063B31A2EAACF00101405 /* BitOperation.m in Sources */,
+				741B955B1A381963000AE44D /* CountSort.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
 				743FFCC81A1D9D1A00F645A6 /* RelativeCoding.m in Sources */,
 				74F3E1211A2815AC00410317 /* HashTableSort.m in Sources */,

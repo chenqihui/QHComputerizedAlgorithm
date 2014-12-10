@@ -34,6 +34,9 @@
 #import "BitOperation.h"
 #import "MapReduce.h"
 
+#import "PancakeSort.h"
+#import "CountSort.h"
+
 @interface DetailViewController ()
 {
     NSIndexPath *_indexPath;
@@ -185,6 +188,31 @@
                         break;
                     case 1:
                         coding = [MapReduce new];
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                        
+                    default:
+                        break;
+                }
+                if (coding != nil)
+                {
+                    [coding runing];
+                }
+                break;
+            }
+            case 4:
+            {
+                BasicAlgorithmsSeries *coding = nil;
+                switch (_indexPath.row)
+                {
+                    case 0:
+                        coding = [PancakeSort new];
+                        break;
+                    case 1:
+                        coding = [CountSort new];
                         break;
                     case 2:
                         break;
