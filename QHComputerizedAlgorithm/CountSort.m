@@ -65,18 +65,24 @@ int maximum(int * array, int size)
     
     return max;
 }
-
+/*
+ 1.输入{3, 4, 3, 2, 1}，最大是4，数组长度是5
+ 2.建立计数数组{0, 0, 0, 0}。
+ 3.遍历输入数组：
+ 4.计数数组现在是{1, 1, 2, 1}，我们现在把它写回到输入数组里：
+ 5.这样就排好序了。
+ */
 void countingSort(int * array, int size){
     
     int curr = 0;
-    //1.输入{3, 4, 3, 2, 1}，最大是4，数组长度是5
+    //1
     int max = maximum(array, size);
-    //2.建立计数数组{0, 0, 0, 0}。
+    //2
     int * counting_array = calloc((max+1),sizeof(int)); // Zeros out the array
-    //3.遍历输入数组：
+    //3
     for(curr = 0; curr < size; curr ++)
     {
-        //4.计数数组现在是{1, 1, 2, 1}，我们现在把它写回到输入数组里：
+        //4
         counting_array[array[curr]]++;
     }
     printArray(counting_array, max+1);
@@ -84,7 +90,7 @@ void countingSort(int * array, int size){
     int num = 0;
     curr = 0;
     
-    //5.这样就排好序了。
+    //5
     while(curr <= max)
     {
         while(counting_array[num] > 0)

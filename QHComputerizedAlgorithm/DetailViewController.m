@@ -36,6 +36,7 @@
 
 #import "PancakeSort.h"
 #import "CountSort.h"
+#import "PowerAlgorithms.h"
 
 @interface DetailViewController ()
 {
@@ -215,6 +216,7 @@
                         coding = [CountSort new];
                         break;
                     case 2:
+                        coding = [PowerAlgorithms new];
                         break;
                     case 3:
                         break;

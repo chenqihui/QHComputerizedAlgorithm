@@ -87,6 +87,7 @@
         NSMutableArray *arTmp = [NSMutableArray new];
         [arTmp addObject:@[@"1、煎饼排序", @"对一堆无序的煎饼以大小排序，铲子可以在任意位置伸进去并且把上面的煎饼都翻转过来。"]];
         [arTmp addObject:@[@"2、计数排序", @""]];
+        [arTmp addObject:@[@"2、求幂算法", @""]];
         
         [self.objects addObject:@[@"五、算法系列", arTmp]];
     }
