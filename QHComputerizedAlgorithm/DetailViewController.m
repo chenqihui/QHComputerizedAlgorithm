@@ -33,6 +33,7 @@
 
 #import "BitOperation.h"
 #import "MapReduce.h"
+#import "InvertedIndexMapReduce.h"
 
 #import "PancakeSort.h"
 #import "CountSort.h"
@@ -191,6 +192,7 @@
                         coding = [MapReduce new];
                         break;
                     case 2:
+                        coding = [InvertedIndexMapReduce new];
                         break;
                     case 3:
                         break;

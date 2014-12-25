@@ -16,6 +16,18 @@
  化简（Reducing ）遍历集合中的元素来返回一个综合的结果。即，输出表单里一列数字的和这个任务属于reducing。
  */
 
+/*
+ 补充：http://blog.jobbole.com/1321/
+ 这篇比较生活化的介绍MapReduce
+ 编注：下面这段话是网上其他人用最简短的语言解释MapReduce：
+ 
+ We want to count all the books in the library. You count up shelf #1, I count up shelf #2. That’s map. The more people we get, the faster it goes.
+ 我们要数图书馆中的所有书。你数1号书架，我数2号书架。这就是“Map”。我们人越多，数书就更快。
+ 
+ Now we get together and add our individual counts. That’s reduce.
+ 现在我们到一起，把所有人的统计数加在一起。这就是“Reduce”。
+ */
+
 @interface MapReduce ()
 {
     NSArray *_arCode;

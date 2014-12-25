@@ -27,6 +27,7 @@
 		744F05471A26CEB400783973 /* RedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F05461A26CEB400783973 /* RedBlackTree.m */; };
 		744F054A1A26FD8A00783973 /* BAndBplusTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F05491A26FD8A00783973 /* BAndBplusTree.m */; };
 		745B511D1A3149A700B5AFDA /* MapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 745B511C1A3149A700B5AFDA /* MapReduce.m */; };
+		748C164E1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 748C164D1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m */; };
 		74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */; };
 		74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */; };
 		74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */; };
@@ -98,6 +99,8 @@
 		744F05491A26FD8A00783973 /* BAndBplusTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAndBplusTree.m; sourceTree = "<group>"; };
 		745B511B1A3149A700B5AFDA /* MapReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapReduce.h; sourceTree = "<group>"; };
 		745B511C1A3149A700B5AFDA /* MapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapReduce.m; sourceTree = "<group>"; };
+		748C164C1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertedIndexMapReduce.h; sourceTree = "<group>"; };
+		748C164D1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertedIndexMapReduce.m; sourceTree = "<group>"; };
 		74948A211A242A0800DB25A7 /* PriorityQueueAndHeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueueAndHeapSort.h; sourceTree = "<group>"; };
 		74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueAndHeapSort.m; sourceTree = "<group>"; };
 		74BDDCB01A222C4A00325F0A /* BasicSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSortAlgorithms.h; sourceTree = "<group>"; };
@@ -227,6 +230,8 @@
 				74E063B21A2EAACF00101405 /* BitOperation.m */,
 				745B511B1A3149A700B5AFDA /* MapReduce.h */,
 				745B511C1A3149A700B5AFDA /* MapReduce.m */,
+				748C164C1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.h */,
+				748C164D1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m */,
 			);
 			name = AlgorithmsItemBack;
 			sourceTree = "<group>";
@@ -444,6 +449,7 @@
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
+				748C164E1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m in Sources */,
 				74E063B31A2EAACF00101405 /* BitOperation.m in Sources */,
 				741B955B1A381963000AE44D /* CountSort.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,
