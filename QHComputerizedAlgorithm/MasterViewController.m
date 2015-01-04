@@ -73,6 +73,7 @@
         [arTmp addObject:@[@"3、喷泉码", @"或者称为“无率码”"]];
         [arTmp addObject:@[@"4、同型哈希", @""]];
         [arTmp addObject:@[@"5、Levenshtein自动机", @""]];
+        [arTmp addObject:@[@"6、日志结构化存储", @"日志结构文件系统（Log Structured File Systems）"]];
         
         [self.objects addObject:@[@"三、超酷算法", arTmp]];
     }

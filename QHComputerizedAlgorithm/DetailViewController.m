@@ -30,6 +30,7 @@
 #import "NumberEstimative.h"
 #import "BurkhardKellerTree.h"
 #import "FountainCode.h"
+#import "LogStructuredFileSystems.h"
 
 #import "BitOperation.h"
 #import "MapReduce.h"
@@ -169,6 +170,7 @@
                         coding = [FountainCode new];
                         break;
                     case 3:
+                        coding = [LogStructuredFileSystems new];
                         break;
                         
                     default:

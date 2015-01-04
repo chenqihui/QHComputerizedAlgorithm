@@ -16,6 +16,7 @@
 		742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869EF1A2C039700FAF733 /* NumberEstimative.m */; };
 		742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */; };
 		742EF6041A392DCB003D6AB6 /* PowerAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 742EF6031A392DCB003D6AB6 /* PowerAlgorithms.m */; };
+		743152871A59014900C63F0B /* LogStructuredFileSystems.m in Sources */ = {isa = PBXBuildFile; fileRef = 743152861A59014900C63F0B /* LogStructuredFileSystems.m */; };
 		74348A991A23864200BDDA5D /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A981A23864200BDDA5D /* MergeSort.m */; };
 		74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74348A9B1A23874B00BDDA5D /* QuickSort.m */; };
 		743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 743FFCC21A1D902400F645A6 /* MapAndModeCode.m */; };
@@ -78,6 +79,8 @@
 		742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurkhardKellerTree.m; sourceTree = "<group>"; };
 		742EF6021A392DCB003D6AB6 /* PowerAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerAlgorithms.h; sourceTree = "<group>"; };
 		742EF6031A392DCB003D6AB6 /* PowerAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerAlgorithms.m; sourceTree = "<group>"; };
+		743152851A59014900C63F0B /* LogStructuredFileSystems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogStructuredFileSystems.h; sourceTree = "<group>"; };
+		743152861A59014900C63F0B /* LogStructuredFileSystems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogStructuredFileSystems.m; sourceTree = "<group>"; };
 		74348A971A23864200BDDA5D /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		74348A981A23864200BDDA5D /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		74348A9A1A23874B00BDDA5D /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				742869F31A2C15CE00FAF733 /* BurkhardKellerTree.m */,
 				74E388421A353CDC0040CB6E /* FountainCode.h */,
 				74E388431A353CDC0040CB6E /* FountainCode.m */,
+				743152851A59014900C63F0B /* LogStructuredFileSystems.h */,
+				743152861A59014900C63F0B /* LogStructuredFileSystems.m */,
 			);
 			name = SuperCoolAlgorithms;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				744626011A257C77002EE2BC /* BinarySearchTree.m in Sources */,
 				74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */,
+				743152871A59014900C63F0B /* LogStructuredFileSystems.m in Sources */,
 				741B95551A37F8B9000AE44D /* BasicAlgorithmsSeries.m in Sources */,
 				744F054A1A26FD8A00783973 /* BAndBplusTree.m in Sources */,
 				742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */,
