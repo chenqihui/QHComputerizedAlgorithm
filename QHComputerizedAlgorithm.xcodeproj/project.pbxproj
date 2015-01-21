@@ -48,6 +48,9 @@
 		74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0B771A1B2946009D8357 /* BasicCodeObject.m */; };
 		74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ED28F31A1E50B3002317DC /* PrefixionCode.m */; };
 		74F3E1211A2815AC00410317 /* HashTableSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3E1201A2815AC00410317 /* HashTableSort.m */; };
+		74FD73B71A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD73B61A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.m */; };
+		74FD73BA1A6F8A89005E62E0 /* PuzzleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD73B91A6F8A89005E62E0 /* PuzzleTree.m */; };
+		74FD73BD1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD73BC1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +144,12 @@
 		74ED28F31A1E50B3002317DC /* PrefixionCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixionCode.m; sourceTree = "<group>"; };
 		74F3E11F1A2815AC00410317 /* HashTableSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTableSort.h; sourceTree = "<group>"; };
 		74F3E1201A2815AC00410317 /* HashTableSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTableSort.m; sourceTree = "<group>"; };
+		74FD73B51A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCipherAndSecurityArrangement.h; sourceTree = "<group>"; };
+		74FD73B61A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockCipherAndSecurityArrangement.m; sourceTree = "<group>"; };
+		74FD73B81A6F8A89005E62E0 /* PuzzleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleTree.h; sourceTree = "<group>"; };
+		74FD73B91A6F8A89005E62E0 /* PuzzleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleTree.m; sourceTree = "<group>"; };
+		74FD73BB1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEncodeOfHistoryPrincipleCompressionAlgorithms.h; sourceTree = "<group>"; };
+		74FD73BC1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEncodeOfHistoryPrincipleCompressionAlgorithms.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +231,10 @@
 				74E388431A353CDC0040CB6E /* FountainCode.m */,
 				743152851A59014900C63F0B /* LogStructuredFileSystems.h */,
 				743152861A59014900C63F0B /* LogStructuredFileSystems.m */,
+				74FD73B51A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.h */,
+				74FD73B61A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.m */,
+				74FD73B81A6F8A89005E62E0 /* PuzzleTree.h */,
+				74FD73B91A6F8A89005E62E0 /* PuzzleTree.m */,
 			);
 			name = SuperCoolAlgorithms;
 			sourceTree = "<group>";
@@ -323,6 +336,8 @@
 				743FFCC71A1D9D1A00F645A6 /* RelativeCoding.m */,
 				74ED28F21A1E50B3002317DC /* PrefixionCode.h */,
 				74ED28F31A1E50B3002317DC /* PrefixionCode.m */,
+				74FD73BB1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.h */,
+				74FD73BC1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.m */,
 			);
 			name = DataEncode;
 			sourceTree = "<group>";
@@ -436,6 +451,7 @@
 				74ED0B721A1AF530009D8357 /* RunCoding.m in Sources */,
 				745B511D1A3149A700B5AFDA /* MapReduce.m in Sources */,
 				74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */,
+				74FD73B71A6F89EE005E62E0 /* BlockCipherAndSecurityArrangement.m in Sources */,
 				744F05441A26BDA100783973 /* TwoThreeSearchTree.m in Sources */,
 				74ED0B4F1A1AEDE2009D8357 /* MasterViewController.m in Sources */,
 				744626011A257C77002EE2BC /* BinarySearchTree.m in Sources */,
@@ -446,6 +462,7 @@
 				742869F01A2C039700FAF733 /* NumberEstimative.m in Sources */,
 				742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */,
 				74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */,
+				74FD73BA1A6F8A89005E62E0 /* PuzzleTree.m in Sources */,
 				742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
 				742EF6041A392DCB003D6AB6 /* PowerAlgorithms.m in Sources */,
@@ -456,6 +473,7 @@
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
 				748C164E1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m in Sources */,
+				74FD73BD1A6F9524005E62E0 /* DataEncodeOfHistoryPrincipleCompressionAlgorithms.m in Sources */,
 				74E063B31A2EAACF00101405 /* BitOperation.m in Sources */,
 				741B955B1A381963000AE44D /* CountSort.m in Sources */,
 				74ED0B781A1B2946009D8357 /* BasicCodeObject.m in Sources */,

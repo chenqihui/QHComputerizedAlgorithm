@@ -46,6 +46,7 @@
         [arTmp addObject:@[@"3、数据压缩之图编码和模式替换", @"游程编码有两种变形"]];
         [arTmp addObject:@[@"4、数据压缩之相对编码", @"另一种数据压缩算法"]];
         [arTmp addObject:@[@"5、数据压缩之前缀编码（前向编码）", @"另一个通过移除冗余数据来降低数据量的算法"]];
+        [arTmp addObject:@[@"6、数据压缩的历史、原理及常用算法", @"压缩，是为了减少存储空间而把数据转换成比原始格式更紧凑形式的过程。"]];
         
         [self.objects addObject:@[@"一、计算机算法：数据压缩", arTmp]];
     }
@@ -74,6 +75,8 @@
         [arTmp addObject:@[@"4、同型哈希", @""]];
         [arTmp addObject:@[@"5、Levenshtein自动机", @""]];
         [arTmp addObject:@[@"6、日志结构化存储", @"日志结构文件系统（Log Structured File Systems）"]];
+        [arTmp addObject:@[@"7、分组密码与安全排列", @""]];
+        [arTmp addObject:@[@"8、字谜树", @""]];
         
         [self.objects addObject:@[@"三、超酷算法", arTmp]];
     }

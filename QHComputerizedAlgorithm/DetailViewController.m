@@ -13,6 +13,7 @@
 #import "MapAndModeCode.h"
 #import "RelativeCoding.h"
 #import "PrefixionCode.h"
+#import "DataEncodeOfHistoryPrincipleCompressionAlgorithms.h"
 
 #import "StackAndQueue.h"
 #import "BasicSortAlgorithms.h"
@@ -31,6 +32,8 @@
 #import "BurkhardKellerTree.h"
 #import "FountainCode.h"
 #import "LogStructuredFileSystems.h"
+#import "BlockCipherAndSecurityArrangement.h"
+#import "PuzzleTree.h"
 
 #import "BitOperation.h"
 #import "MapReduce.h"
@@ -93,6 +96,9 @@
                         break;
                     case 4:
                         coding = [PrefixionCode new];
+                        break;
+                    case 5:
+                        coding = [DataEncodeOfHistoryPrincipleCompressionAlgorithms new];
                         break;
                         
                     default:
@@ -170,7 +176,15 @@
                         coding = [FountainCode new];
                         break;
                     case 3:
+                        break;
+                    case 4:
                         coding = [LogStructuredFileSystems new];
+                        break;
+                    case 5:
+                        coding = [BlockCipherAndSecurityArrangement new];
+                        break;
+                    case 6:
+                        coding = [PuzzleTree new];
                         break;
                         
                     default:
