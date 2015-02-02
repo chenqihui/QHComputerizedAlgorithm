@@ -13,6 +13,7 @@
 
 @property NSArray *arKey;
 @property NSMutableArray *objects;
+
 @end
 
 @implementation MasterViewController
@@ -92,7 +93,13 @@
         NSMutableArray *arTmp = [NSMutableArray new];
         [arTmp addObject:@[@"1、煎饼排序", @"对一堆无序的煎饼以大小排序，铲子可以在任意位置伸进去并且把上面的煎饼都翻转过来。"]];
         [arTmp addObject:@[@"2、计数排序", @""]];
-        [arTmp addObject:@[@"2、求幂算法", @""]];
+        [arTmp addObject:@[@"3、求幂算法", @""]];
+        //五大常用算法
+        [arTmp addObject:@[@"4、分治算法", @""]];
+        [arTmp addObject:@[@"5、动态规划算法", @""]];
+        [arTmp addObject:@[@"6、贪心算法", @""]];
+        [arTmp addObject:@[@"7、回溯法", @""]];
+        [arTmp addObject:@[@"8、分支限界法", @""]];
         
         [self.objects addObject:@[@"五、算法系列", arTmp]];
     }

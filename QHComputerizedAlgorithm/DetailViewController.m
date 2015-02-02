@@ -42,6 +42,11 @@
 #import "PancakeSort.h"
 #import "CountSort.h"
 #import "PowerAlgorithms.h"
+#import "DivideAndConquerAlgorithm.h"
+#import "DynamicProgramming.h"
+#import "GreedyAlgorithm.h"
+#import "ReturnAlgorithm.h"
+#import "BranchThresholdAlgorithm.h"
 
 @interface DetailViewController ()
 {
@@ -237,6 +242,19 @@
                         coding = [PowerAlgorithms new];
                         break;
                     case 3:
+                        coding = [DivideAndConquerAlgorithm new];
+                        break;
+                    case 4:
+                        coding = [DynamicProgramming new];
+                        break;
+                    case 5:
+                        coding = [GreedyAlgorithm new];
+                        break;
+                    case 6:
+                        coding = [ReturnAlgorithm new];
+                        break;
+                    case 7:
+                        coding = [BranchThresholdAlgorithm new];
                         break;
                         
                     default:

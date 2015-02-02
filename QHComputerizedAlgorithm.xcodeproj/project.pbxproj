@@ -30,6 +30,12 @@
 		745B511D1A3149A700B5AFDA /* MapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 745B511C1A3149A700B5AFDA /* MapReduce.m */; };
 		748C164E1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 748C164D1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m */; };
 		74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */; };
+		74BA8CA21A7F1397006B2D58 /* BasicUsedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CA11A7F1397006B2D58 /* BasicUsedAlgorithm.m */; };
+		74BA8CA51A7F14D7006B2D58 /* DivideAndConquerAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CA41A7F14D7006B2D58 /* DivideAndConquerAlgorithm.m */; };
+		74BA8CA81A7F1CC3006B2D58 /* DynamicProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CA71A7F1CC3006B2D58 /* DynamicProgramming.m */; };
+		74BA8CAB1A7F25F9006B2D58 /* GreedyAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CAA1A7F25F9006B2D58 /* GreedyAlgorithm.m */; };
+		74BA8CAE1A7F2951006B2D58 /* ReturnAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CAD1A7F2951006B2D58 /* ReturnAlgorithm.m */; };
+		74BA8CB11A7F2AB5006B2D58 /* BranchThresholdAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BA8CB01A7F2AB5006B2D58 /* BranchThresholdAlgorithm.m */; };
 		74BDDCB21A222C4A00325F0A /* BasicSortAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */; };
 		74E063B01A2EA9D000101405 /* BasicAlgorithmsItemBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063AF1A2EA9D000101405 /* BasicAlgorithmsItemBank.m */; };
 		74E063B31A2EAACF00101405 /* BitOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E063B21A2EAACF00101405 /* BitOperation.m */; };
@@ -109,6 +115,18 @@
 		748C164D1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertedIndexMapReduce.m; sourceTree = "<group>"; };
 		74948A211A242A0800DB25A7 /* PriorityQueueAndHeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueueAndHeapSort.h; sourceTree = "<group>"; };
 		74948A221A242A0800DB25A7 /* PriorityQueueAndHeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityQueueAndHeapSort.m; sourceTree = "<group>"; };
+		74BA8CA01A7F1397006B2D58 /* BasicUsedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicUsedAlgorithm.h; sourceTree = "<group>"; };
+		74BA8CA11A7F1397006B2D58 /* BasicUsedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicUsedAlgorithm.m; sourceTree = "<group>"; };
+		74BA8CA31A7F14D7006B2D58 /* DivideAndConquerAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideAndConquerAlgorithm.h; sourceTree = "<group>"; };
+		74BA8CA41A7F14D7006B2D58 /* DivideAndConquerAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivideAndConquerAlgorithm.m; sourceTree = "<group>"; };
+		74BA8CA61A7F1CC3006B2D58 /* DynamicProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProgramming.h; sourceTree = "<group>"; };
+		74BA8CA71A7F1CC3006B2D58 /* DynamicProgramming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicProgramming.m; sourceTree = "<group>"; };
+		74BA8CA91A7F25F9006B2D58 /* GreedyAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreedyAlgorithm.h; sourceTree = "<group>"; };
+		74BA8CAA1A7F25F9006B2D58 /* GreedyAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreedyAlgorithm.m; sourceTree = "<group>"; };
+		74BA8CAC1A7F2951006B2D58 /* ReturnAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnAlgorithm.h; sourceTree = "<group>"; };
+		74BA8CAD1A7F2951006B2D58 /* ReturnAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnAlgorithm.m; sourceTree = "<group>"; };
+		74BA8CAF1A7F2AB5006B2D58 /* BranchThresholdAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchThresholdAlgorithm.h; sourceTree = "<group>"; };
+		74BA8CB01A7F2AB5006B2D58 /* BranchThresholdAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchThresholdAlgorithm.m; sourceTree = "<group>"; };
 		74BDDCB01A222C4A00325F0A /* BasicSortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSortAlgorithms.h; sourceTree = "<group>"; };
 		74BDDCB11A222C4A00325F0A /* BasicSortAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSortAlgorithms.m; sourceTree = "<group>"; };
 		74E063AE1A2EA9D000101405 /* BasicAlgorithmsItemBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAlgorithmsItemBank.h; sourceTree = "<group>"; };
@@ -239,6 +257,25 @@
 			name = SuperCoolAlgorithms;
 			sourceTree = "<group>";
 		};
+		74BA8C9F1A7F1345006B2D58 /* FiveCommonlyUsedAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				74BA8CA01A7F1397006B2D58 /* BasicUsedAlgorithm.h */,
+				74BA8CA11A7F1397006B2D58 /* BasicUsedAlgorithm.m */,
+				74BA8CA31A7F14D7006B2D58 /* DivideAndConquerAlgorithm.h */,
+				74BA8CA41A7F14D7006B2D58 /* DivideAndConquerAlgorithm.m */,
+				74BA8CA61A7F1CC3006B2D58 /* DynamicProgramming.h */,
+				74BA8CA71A7F1CC3006B2D58 /* DynamicProgramming.m */,
+				74BA8CA91A7F25F9006B2D58 /* GreedyAlgorithm.h */,
+				74BA8CAA1A7F25F9006B2D58 /* GreedyAlgorithm.m */,
+				74BA8CAC1A7F2951006B2D58 /* ReturnAlgorithm.h */,
+				74BA8CAD1A7F2951006B2D58 /* ReturnAlgorithm.m */,
+				74BA8CAF1A7F2AB5006B2D58 /* BranchThresholdAlgorithm.h */,
+				74BA8CB01A7F2AB5006B2D58 /* BranchThresholdAlgorithm.m */,
+			);
+			name = FiveCommonlyUsedAlgorithm;
+			sourceTree = "<group>";
+		};
 		74E063AD1A2EA94C00101405 /* AlgorithmsItemBack */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +323,7 @@
 				742869EA1A2BFEFB00FAF733 /* SuperCoolAlgorithms */,
 				7404F8671A215A1300DD89FF /* AlgorithmsAndDataStructures */,
 				74ED0B6F1A1AF498009D8357 /* DataEncode */,
+				74BA8C9F1A7F1345006B2D58 /* FiveCommonlyUsedAlgorithm */,
 				74ED0B531A1AEDE2009D8357 /* Main.storyboard */,
 				74ED0B561A1AEDE2009D8357 /* Images.xcassets */,
 				74ED0B581A1AEDE2009D8357 /* LaunchScreen.xib */,
@@ -463,13 +501,17 @@
 				742869F41A2C15CE00FAF733 /* BurkhardKellerTree.m in Sources */,
 				74948A231A242A0800DB25A7 /* PriorityQueueAndHeapSort.m in Sources */,
 				74FD73BA1A6F8A89005E62E0 /* PuzzleTree.m in Sources */,
+				74BA8CA51A7F14D7006B2D58 /* DivideAndConquerAlgorithm.m in Sources */,
 				742869ED1A2BFF3200FAF733 /* BasicSuperCoolAlgorithms.m in Sources */,
 				74ED28F41A1E50B3002317DC /* PrefixionCode.m in Sources */,
 				742EF6041A392DCB003D6AB6 /* PowerAlgorithms.m in Sources */,
 				74E388471A353CE90040CB6E /* UndirectedGraphAlgorithms.m in Sources */,
 				7404F86D1A215AF800DD89FF /* StackAndQueue.m in Sources */,
+				74BA8CA21A7F1397006B2D58 /* BasicUsedAlgorithm.m in Sources */,
+				74BA8CAB1A7F25F9006B2D58 /* GreedyAlgorithm.m in Sources */,
 				74348A9C1A23874B00BDDA5D /* QuickSort.m in Sources */,
 				74ED0B751A1B2730009D8357 /* BitMapCode.m in Sources */,
+				74BA8CA81A7F1CC3006B2D58 /* DynamicProgramming.m in Sources */,
 				743FFCC31A1D902400F645A6 /* MapAndModeCode.m in Sources */,
 				744625FE1A256B64002EE2BC /* SymbolTableDictionary.m in Sources */,
 				748C164E1A4BA9CB00D6EAC4 /* InvertedIndexMapReduce.m in Sources */,
@@ -482,6 +524,8 @@
 				74ED0B491A1AEDE2009D8357 /* main.m in Sources */,
 				74ED0B521A1AEDE2009D8357 /* DetailViewController.m in Sources */,
 				7404F86A1A215ACF00DD89FF /* BasicAlgorithmsAndDataStructuresObject.m in Sources */,
+				74BA8CAE1A7F2951006B2D58 /* ReturnAlgorithm.m in Sources */,
+				74BA8CB11A7F2AB5006B2D58 /* BranchThresholdAlgorithm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
